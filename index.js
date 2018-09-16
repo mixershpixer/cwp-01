@@ -1,3 +1,5 @@
-const name = process.argv[2];
+var arr = process.argv;
 
-console.log(`Hi ${name}!`);
+arr.forEach(function(item) {
+    console.log(item + " ");
+});
